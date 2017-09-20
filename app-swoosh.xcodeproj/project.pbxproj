@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8411E21B1F729A290053A798 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411E21A1F729A290053A798 /* ButtonView.swift */; };
 		8436E38B1F6F9B2D00591112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436E38A1F6F9B2D00591112 /* AppDelegate.swift */; };
 		8436E38D1F6F9B2D00591112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436E38C1F6F9B2D00591112 /* ViewController.swift */; };
 		8436E3901F6F9B2D00591112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8436E38E1F6F9B2D00591112 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8411E21A1F729A290053A798 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		8436E3871F6F9B2D00591112 /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8436E38A1F6F9B2D00591112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8436E38C1F6F9B2D00591112 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8411E21C1F729B6F0053A798 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8411E21A1F729A290053A798 /* ButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8436E37E1F6F9B2D00591112 = {
 			isa = PBXGroup;
 			children = (
@@ -55,8 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				8436E38A1F6F9B2D00591112 /* AppDelegate.swift */,
-				8436E38C1F6F9B2D00591112 /* ViewController.swift */,
+				8411E21C1F729B6F0053A798 /* Views */,
 				8436E38E1F6F9B2D00591112 /* Main.storyboard */,
+				8436E38C1F6F9B2D00591112 /* ViewController.swift */,
 				8436E3911F6F9B2D00591112 /* Assets.xcassets */,
 				8436E3931F6F9B2D00591112 /* LaunchScreen.storyboard */,
 				8436E3961F6F9B2E00591112 /* Info.plist */,
@@ -138,6 +149,7 @@
 			files = (
 				8436E38D1F6F9B2D00591112 /* ViewController.swift in Sources */,
 				8436E38B1F6F9B2D00591112 /* AppDelegate.swift in Sources */,
+				8411E21B1F729A290053A798 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
