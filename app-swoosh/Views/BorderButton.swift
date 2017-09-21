@@ -1,5 +1,5 @@
 //
-//  ButtonView.swift
+//  BorderButton.swift
 //  app-swoosh
 //
 //  Created by admin on 9/20/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ButtonView: UIButton {
+class BorderButton: UIButton {
 
     override func awakeFromNib() {
         super.awakeFromNib()
